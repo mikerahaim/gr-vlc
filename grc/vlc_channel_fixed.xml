@@ -1,0 +1,20 @@
+<block>
+  <name>VLC Channel - Fixed</name>
+  <key>vlc_channel_fixed</key>
+  <category>VLC</category>
+  <import>import vlc</import>
+  <make>vlc.channel_fixed($gain)</make>
+  <param>
+    <name>Gain</name>
+    <key>gain</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

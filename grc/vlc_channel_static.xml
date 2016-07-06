@@ -1,0 +1,30 @@
+<block>
+  <name>VLC Channel - Static</name>
+  <key>vlc_channel_static</key>
+  <category>VLC</category>
+  <import>import vlc</import>
+  <make>vlc.channel_static($emission_angle, $acceptance_angle, $distance)</make>
+  <param>
+    <name>Emission_angle</name>
+    <key>emission_angle</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Acceptance_angle</name>
+    <key>acceptance_angle</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Distance</name>
+    <key>distance</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
