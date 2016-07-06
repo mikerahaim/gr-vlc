@@ -4,7 +4,7 @@ GNURadio OOT block for visible light communication (i.e., LiFi)
 To install, follow the steps below:
 
 1-) cd to the gr-vlc directory
-2-) Create a build directory with 'mkdir build'
+2-) Create a build directory with 'mkdir build' and move into the directory with 'cd build/'
 3-) Run cmake with the path to your local gnuradio installation (assuming installed via PyBOMBS):
 	'cmake -DCMAKE_INSTALL_PREFIX=<path-to-target> ../'
 4-) Run 'make'
