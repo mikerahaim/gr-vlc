@@ -1,0 +1,75 @@
+<block>
+  <name>VLC Channel - Relative</name>
+  <key>vlc_channel_relative</key>
+  <category>VLC</category>
+  <import>import vlc</import>
+  <make>vlc.channel_relative($phi, $psi, $d, $m, $A, $n, $FOV, $Ts, $R)</make>
+  <callback>set_phi($phi)</callback>
+  <callback>set_psi($psi)</callback>
+  <callback>set_d($d)</callback>
+    
+  <param>
+    <name>Emission Angle (deg)</name>
+    <key>phi</key>
+    <type>float</type>
+  </param>
+    
+  <param>
+    <name>Acceptance Angle (deg)</name>
+    <key>psi</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Distance (m)</name>
+    <key>d</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Lambertian Order</name>
+    <key>m</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Photodiode Area (m^2)</name>
+    <key>A</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Concentrator Index</name>
+    <key>n</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Receiver Field of View (deg)</name>
+    <key>FOV</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Filter Gain</name>
+    <key>Ts</key>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Photodiode Responsivity (A/W)</name>
+    <key>R</key>
+    <type>float</type>
+  </param>
+  
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

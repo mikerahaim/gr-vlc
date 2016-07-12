@@ -19,5 +19,6 @@
 
 install(FILES
     vlc_channel_fixed.xml
-    vlc_channel_static.xml DESTINATION share/gnuradio/grc/blocks
+    vlc_channel_static.xml
+    vlc_channel_relative.xml DESTINATION share/gnuradio/grc/blocks
 )

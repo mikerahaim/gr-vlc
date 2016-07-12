@@ -23,5 +23,6 @@
 install(FILES
     api.h
     channel_fixed.h
-    channel_static.h DESTINATION include/vlc
+    channel_static.h
+    channel_relative.h DESTINATION include/vlc
 )
