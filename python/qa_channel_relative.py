@@ -88,6 +88,8 @@ class qa_channel_relative (gr_unittest.TestCase):
         self.tb.connect(blk, dst)
         self.tb.run()
         result_data = dst.data()
+        blk.set_Ts(2)
+        print "Filter Gain: %f." % blk.Ts()
         
         print "Source: "
         print str(src_data).strip('[]')

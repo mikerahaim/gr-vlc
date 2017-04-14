@@ -54,6 +54,8 @@ namespace gr {
       virtual float psi() = 0;
       virtual void set_d(float d) = 0;
       virtual float d() = 0;
+      virtual void set_Ts(float Ts) = 0;
+      virtual float Ts() = 0;
     };
 
   } // namespace vlc

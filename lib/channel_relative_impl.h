@@ -35,6 +35,7 @@ namespace gr {
       float d_R;
       float d_gain;
 
+
      public:
       channel_relative_impl(float phi, float psi, float d, float m, float A, float n, float FOV, float Ts, float R);
       ~channel_relative_impl();
@@ -43,9 +44,12 @@ namespace gr {
       float phi() { return d_phi; }
       void set_psi(float psi) { d_psi = psi; update_gain(); }
       float psi() { return d_psi; }
-      void set_d(float d) { d_d = d; update_gain(); }
+      void set_d(float d) { d_d = d; update_gain(); } 
       float d() { return d_d; }
+      void set_Ts(float Ts) {d_Ts = Ts; update_gain(); }
+      float Ts() {return d_Ts; }
       float update_gain();
+
 
       // Where all the action really happens
       int work(int noutput_items,

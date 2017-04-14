@@ -29,6 +29,7 @@ list(APPEND vlc_sources
     channel_fixed_impl.cc
     channel_static_impl.cc
     channel_relative_impl.cc
+    channel_scaleable_ff_impl.cc
 )
 
 set(vlc_sources "${vlc_sources}" PARENT_SCOPE)
