@@ -21,5 +21,4 @@ GR_SWIG_BLOCK_MAGIC2(vlc, channel_fixed);
 GR_SWIG_BLOCK_MAGIC2(vlc, channel_static);
 %include "vlc/channel_relative.h"
 GR_SWIG_BLOCK_MAGIC2(vlc, channel_relative);
-%include "vlc/channel_scaleable_ff.h"
-GR_SWIG_BLOCK_MAGIC2(vlc, channel_scaleable_ff);
+

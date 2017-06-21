@@ -25,5 +25,5 @@ install(FILES
     channel_fixed.h
     channel_static.h
     channel_relative.h
-    channel_scaleable_ff.h DESTINATION include/vlc
+    DESTINATION include/vlc
 )
