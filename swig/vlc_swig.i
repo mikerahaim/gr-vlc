@@ -11,7 +11,6 @@
 #include "vlc/channel_fixed.h"
 #include "vlc/channel_static.h"
 #include "vlc/channel_relative.h"
-#include "vlc/channel_scaleable_ff.h"
 %}
 
 

@@ -1,7 +1,7 @@
 <block>
   <name>VLC Channel - Static</name>
   <key>vlc_channel_static</key>
-  <category>VLC</category>
+  <category>[VLC]/Channel Model</category>
   <import>import vlc</import>
   <make>vlc.channel_static($emission_angle, $acceptance_angle, $distance)</make>
   <param>

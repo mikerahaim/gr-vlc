@@ -1,7 +1,7 @@
 <block>
   <name>VLC Channel - Fixed</name>
   <key>vlc_channel_fixed</key>
-  <category>VLC</category>
+  <category>[VLC]/Channel Model</category>
   <import>import vlc</import>
   <make>vlc.channel_fixed($gain)</make>
   <param>

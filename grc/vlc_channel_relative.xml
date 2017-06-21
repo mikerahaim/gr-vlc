@@ -1,7 +1,7 @@
 <block>
   <name>VLC Channel - Relative</name>
   <key>vlc_channel_relative</key>
-  <category>VLC</category>
+  <category>[VLC]/Channel Model</category>
   <import>import vlc</import>
   <make>vlc.channel_relative($phi, $psi, $d, $m, $A, $n, $FOV, $Ts, $R)</make>
   <callback>set_phi($phi)</callback>
